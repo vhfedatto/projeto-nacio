@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --font-site:"Honk", system-ui;;
+    --font-titulo:"Lilita One", sans-serif;;
+    --font-normal:"Merriweather", serif;;
+    
+    --cor0:white;
+    --cor1:white;
+    --cor2:white;
+    --cor3:white;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    background-color: darkgray;
+}
+
+.links-esp{
+    background-color: aqua;
+    color: blue;
+}
+
+/* Cabeçalho */
+header{
+    background-color: rgb(141, 141, 141);
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--font-site);
+    font-size: 60px;
+}
+
+header a{
+    font-family: var(--font-titulo);
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+header a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+
+/* Corpo */
+
+main{
+    background-color: white;
+    padding: 10px;
+    font-family: var(--font-normal);
+}
+
+article ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+.normal{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10vh;
+}
+.normal h2{
+    margin-bottom: 20px;
+}
+.normal h3{
+    display: inline;
+    font-size: 30px;
+    background-color: aquamarine;
+}
+
+.imagem{
+    background-color: rgb(201, 201, 201);
+    padding: 10vh;
+}
+
+.imagem h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+article#cidadania{
+    background-color: aliceblue;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+    
+}
+
+article#nacionalidade{
+    background-color: wheat;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+#natos-natura h1{
+    margin: 20px;
+}
+
+article#natos{
+    background-color: wheat;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+article#naturalizados{
+    background-color: aliceblue;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+article#perda{
+    background-color: wheat;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+article#recuperar{
+    background-color: aliceblue;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+#perda-recuperar h1{
+    margin: 20px;
+}
+
+#tipos-cidadania{
+    background-color: wheat;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+#tipos-cidadania ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    list-style-position: inside;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+#tipos-cidadania ul ul {
+    color: blue;
+    padding-left: 20px; /* Ajuste de indentação da lista aninhada */
+}
+
+#tipos-cidadania > ul > li{
+    margin-top: 10px;
+}
+
+
+
+
+
+footer{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font-titulo);
+}
+footer a{
+    color: rgb(180, 49, 180);
+}
